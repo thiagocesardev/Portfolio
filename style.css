@@ -1,102 +1,81 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
-    padding: 20px 0
-}
-
-.bibliografia {
-    position: fixed;
-    font-size: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 35%;
-    padding: 20px;
-    text-indent: 30px;
-    text-align: justify;
-
-    
-}
-
-nav {
-    background-color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 20px
+    color: #fff;
 }
 
-nav h1 {
+header h1 {
     font-size: 40px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
-nav p {
+header p {
     font-size: 18px;
-    color: #888
-}
-
-.foto-img {
-    width: 20%;
-    margin-top: 30px
+    color: #888;
 }
 
 article {
     padding: 20px;
-    text-align: center
+    text-align: center;
+    margin-top: 20px;
 }
 
 .lista-social {
-    position: fixed;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
     list-style: none;
     display: flex;
-    align-items: flex-end;
-    margin-right: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
+
 
 .lista-social li {
     margin-bottom: 10px;
-    /* Espaçamento entre os itens */
 }
 
 .lista-social img {
     cursor: pointer;
-    max-width: 50px;
+    max-width: 80px;
+    margin-right: 10px;
 }
 
 .lista {
     list-style: none;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
-    background-color: #fff
+    background-color: #fff;
+    margin-top: 100px;
+
 }
 
 .lista li {
     display: inline-block;
-    margin: 0 10px
+    margin: 0 10px;
 }
 
 .lista img {
     cursor: pointer;
-    max-width: 50px
+    max-width: 45px;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 footer button {
@@ -106,84 +85,53 @@ footer button {
     color: #fff;
     border: none;
     border-radius: 4px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
-    header {
-        align-items: center
+    header h1 {
+        font-size: 30px;
     }
 
-    nav {
-        padding: 15px
+    header p {
+        font-size: 20px;
+        text-align: center;
     }
 
-    nav h1 {
-        font-size: 30px
+    .bibliografia{
+        display: none;
     }
-
-    nav p {
-        font-size: 20px
-    }
-
-
-
-    .foto-img {
-        width: 80%;
-        margin-top: 10px
-    }
-
     .lista img {
-        display: none
+        display: none;
     }
 
     .lista-social {
         list-style: none;
-        padding: 10px;
+        padding: 5px;
         display: flex;
-        justify-content: space-around
+        justify-content: space-around;
     }
 
     .lista-social li {
         display: inline-block;
-        margin: 0 10px
+        margin: 0 10px;
     }
 
     .lista-social img {
-        margin-top: 220px;
         cursor: pointer;
-        max-width: 30px
-    }
-
-    .lista img {
-        display: none
+        max-width: 60px;
     }
 
     article {
-        padding: 15px
+        padding: 15px;
     }
 
     footer {
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     footer button {
         padding: 6px 16px;
-        font-size: 14px
+        font-size: 30px;
     }
-
-    .bibliografia {
-        margin-top: 280px; 
-        font-size: 10px; 
-        line-height: 1.6; 
-        text-align: justify;
-        padding: 20px;
-        border-radius: 8px; 
-        max-width: 95%; 
-        margin-left: auto;
-        margin-right: auto; 
-    }
-           
-            
-        }
-    
+}
