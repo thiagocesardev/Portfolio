@@ -71,6 +71,12 @@ article {
     max-width: 45px;
 }
 
+.lista img:hover,
+.lista-social img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
 footer {
     background-color: #333;
     color: #fff;
