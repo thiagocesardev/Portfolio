@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #333333;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
     color: #fff;
 }
@@ -55,7 +55,7 @@ article {
 .card {
     margin-top: 10px;
     background-color: #333333;
-    height: 305px;
+    height: 355px;
     width: 335px;
     border-radius: 20px;
     padding: 20px 20px;
