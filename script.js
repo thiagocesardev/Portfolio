@@ -1,3 +1,3 @@
 document.getElementById("btnDownload").addEventListener("click", function() {
-    window.open("./assets/Curriculo_ThiagoCesar_Desenvolvedor.pdf");
+    window.open("./assets/Curriculo_Thiago_Cesar.pdf");
 });
